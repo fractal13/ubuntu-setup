@@ -1,0 +1,20 @@
+apt-get install gnome-tweaks
+# Tweaks -> Keyboard & Mouse -> Additional Layout Options -> Ctrl position -> Caps Lock as Ctrl
+# Tweaks -> Windows -> Window Focus -> Sloppy
+# Tweaks -> Workspaces -> Static Workspaces -> 6 
+apt-get install git
+apt-get install emacs
+
+# Settings -> Bluetooth -> OFF
+# Settings -> Dock -> Auto-hide the Dock -> ON
+# Settings -> Sound -> Sound Effects -> OFF
+
+git clone git@github.com:fractal13/dotfiles.git
+# restore all of the dot files
+# log-out, maybe reboot?
+
+apt-get install make
+
+# emacs
+# M-x packages-list-packages
+# find magit and install it

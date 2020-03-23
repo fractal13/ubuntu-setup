@@ -18,3 +18,20 @@ apt-get install make
 # emacs
 # M-x packages-list-packages
 # find magit and install it
+
+# install Google Chrome from web.
+
+# extensions.gnome.org
+apt-get install chrome-gnome-shell
+- Dash to Dock, turn on
+- gTile, turn on
+- Workspaces to Dock, turn on
+- Suspend button, turn on
+
+# wacom
+- Stylus labs - Write
+
+snap install spotify
+
+# alt-tab to switch windows on current desktop only
+Settings -> Devices -> Keyboard -> Switch Windows : Alt-Tab

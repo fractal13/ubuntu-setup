@@ -18,6 +18,7 @@ apt-get install make
 # emacs
 # M-x packages-list-packages
 # find magit and install it
+# find srefactor and install it
 
 # install Google Chrome from web.
 
@@ -35,3 +36,12 @@ snap install spotify
 
 # alt-tab to switch windows on current desktop only
 Settings -> Devices -> Keyboard -> Switch Windows : Alt-Tab
+
+#
+apt-get install python3-pip
+apt-get install unifdef
+
+http://cit.dixie.edu/faculty/larsen/google-test-installation.php
+
+apt-get install libreoffice
+apt-get install net-tools

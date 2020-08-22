@@ -51,3 +51,4 @@ http://cit.dixie.edu/faculty/larsen/google-test-installation.php
 
 sudo apt install libreoffice
 sudo apt install net-tools
+sudo apt install byobu

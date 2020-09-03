@@ -52,3 +52,5 @@ http://cit.dixie.edu/faculty/larsen/google-test-installation.php
 sudo apt install libreoffice
 sudo apt install net-tools
 sudo apt install byobu
+
+sudo apt install python3-pygame

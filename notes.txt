@@ -53,9 +53,10 @@ sudo apt install libreoffice
 sudo apt install net-tools
 sudo apt install byobu
 sudo apt install texlive-latex-base texlive-metapost
-
+sudo apt install python3-pygame
 
 ####
 #### pip packages
 ####
 pip install pandas
+

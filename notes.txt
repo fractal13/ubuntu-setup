@@ -60,3 +60,8 @@ sudo apt install python3-pygame
 ####
 pip install pandas
 
+
+###
+wget https://github.com/cli/cli/releases/download/v1.1.0/gh_1.1.0_linux_amd64.deb
+sudo dpkg -i gh_1.1.0_linux_amd64.deb
+rm gh_1.1.0_linux_amd64.deb

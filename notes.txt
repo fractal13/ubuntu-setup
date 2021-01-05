@@ -1,3 +1,5 @@
+# ubuntu 20.04
+
 sudo apt install openssh-server
 sudo apt install gnome-tweaks
 # Tweaks -> Keyboard & Mouse -> Additional Layout Options -> Ctrl position -> Caps Lock as Ctrl
@@ -58,7 +60,7 @@ sudo apt install python3-pygame
 ####
 #### pip packages
 ####
-pip install pandas
+pip3 install pandas
 
 
 ###

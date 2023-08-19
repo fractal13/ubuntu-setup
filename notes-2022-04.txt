@@ -40,7 +40,9 @@ make install
 sudo apt install chrome-gnome-shell
 - Dash to Dock, turn on
 - gTile, turn on
-- Workspaces to Dock, turn on
+- Workspaces to Dock, turn on (gone)
+  + Trying customised Workspaces instead. :( not working the way i want)
+  + Trying Workspace Matrix
 - Suspend button, turn on
 
 # wacom
@@ -49,6 +51,7 @@ sudo apt install chrome-gnome-shell
 sudo snap install spotify
 
 # alt-tab to switch windows on current desktop only
+# didn't need this with 22.04?
 Settings -> Devices -> Keyboard -> Switch Windows : Alt-Tab
 
 #

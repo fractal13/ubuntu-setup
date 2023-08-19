@@ -23,6 +23,7 @@ cat .ssh/id_rsa.pub
 cd; if [ ! -d repos ]; then mkdir repos; fi; cd repos
 git clone git@github.com:fractal13/dotfiles.git
 # restore all of the dot files
+make install
 # log-out, maybe reboot?
 
 

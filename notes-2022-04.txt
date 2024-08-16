@@ -47,6 +47,14 @@ sudo apt install chrome-gnome-shell
 
 # wacom
 - Stylus labs - Write
+  https://www.styluslabs.com/download/
+  cd Downloads;
+  tar zxf write-latest.tar.gz
+  sudo mkdir -p /opt
+  sudo mv -i Write /opt/
+  cd /opt/Write
+  ./setup.sh
+  
 
 sudo snap install spotify
 

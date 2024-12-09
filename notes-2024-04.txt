@@ -1,0 +1,89 @@
+# ubuntu 24.04
+
+sudo apt install openssh-server
+sudo apt install gnome-tweaks
+# Tweaks -> Keyboard -> Additional Layout Options -> Ctrl position -> Caps Lock as Ctrl
+# Tweaks -> Windows -> Window Focus -> Click to Focus (GROWL!!!! WHY DO PEOPLE HAVE TO BREAK GOOD INTERFACE?)
+sudo apt install git
+sudo apt install emacs
+
+# Settings -> Multitasking -> Fixed number of workspaces
+# Settings -> Multitasking -> Number of workspaces -> 6 
+# Settings -> Bluetooth -> OFF
+# Settings -> Ubuntu Desktop -> Auto-hide the Dock -> ON
+# Settings -> Sound -> System Sounds -> Sounds -> Volume Levels -> Mute by moving volume away from and back to 0.
+
+sudo apt install stow
+sudo apt install make
+
+ssh-keygen
+cat .ssh/id_rsa.pub
+# Install key in github account
+
+cd; if [ ! -d repos ]; then mkdir repos; fi; cd repos
+git clone git@github.com:fractal13/dotfiles.git
+# restore all of the dot files
+cd dotfiles
+make install
+# log-out, maybe reboot?
+
+
+#### May not be necessary if dotfiles are done correctly.
+# emacs
+# M-x packages-list-packages
+# find magit and install it
+# projectile
+# find srefactor and install it
+#### May not be necessary if dotfiles are done correctly.
+
+# install Google Chrome from web.
+
+# extensions.gnome.org
+sudo apt install chrome-gnome-shell
+- Dash to Dock, turn on
+- gTile, turn on
+- Workspaces to Dock, turn on (gone)
+  + Trying customised Workspaces instead. :( not working the way i want)
+  + Trying Workspace Matrix
+## NOT NEEDED NOW? - Suspend button, turn on
+- Hibernate button, turn on
+
+# wacom
+- Stylus labs - Write
+  https://www.styluslabs.com/download/
+  cd Downloads;
+  tar zxf write-latest.tar.gz
+  sudo mkdir -p /opt
+  sudo mv -i Write /opt/
+  cd /opt/Write
+  ./setup.sh
+  
+
+sudo snap install spotify
+
+# alt-tab to switch windows on current desktop only
+# didn't need this with 22.04 or 24.04?
+Settings -> Devices -> Keyboard -> Switch Windows : Alt-Tab
+
+#
+sudo apt install python3-pip
+sudo apt install unifdef
+
+http://cit.dixie.edu/faculty/larsen/google-test-installation.php
+
+sudo apt install libreoffice
+sudo apt install net-tools
+sudo apt install byobu
+sudo apt install texlive-latex-base texlive-metapost
+## SHOULD USE venv now? sudo apt install python3-pygame
+
+####
+#### pip packages
+####
+## SHOULD USE venv now? pip3 install pandas
+
+
+###
+wget https://github.com/cli/cli/releases/download/v1.1.0/gh_1.1.0_linux_amd64.deb
+sudo dpkg -i gh_1.1.0_linux_amd64.deb
+rm gh_1.1.0_linux_amd64.deb

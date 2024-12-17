@@ -87,3 +87,10 @@ sudo apt install texlive-latex-base texlive-metapost
 wget https://github.com/cli/cli/releases/download/v1.1.0/gh_1.1.0_linux_amd64.deb
 sudo dpkg -i gh_1.1.0_linux_amd64.deb
 rm gh_1.1.0_linux_amd64.deb
+
+
+###
+# Enabled hibernate.
+https://ubuntuhandbook.org/index.php/2021/08/enable-hibernate-ubuntu-21-10/
+I don't know if it actually works the way I want.
+

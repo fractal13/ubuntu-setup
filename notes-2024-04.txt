@@ -84,9 +84,10 @@ sudo apt install texlive-latex-base texlive-metapost
 
 
 ###
-wget https://github.com/cli/cli/releases/download/v1.1.0/gh_1.1.0_linux_amd64.deb
-sudo dpkg -i gh_1.1.0_linux_amd64.deb
-rm gh_1.1.0_linux_amd64.deb
+#wget https://github.com/cli/cli/releases/download/v1.1.0/gh_1.1.0_linux_amd64.deb
+#sudo dpkg -i gh_1.1.0_linux_amd64.deb
+#rm gh_1.1.0_linux_amd64.deb
+sudo snap install gh
 
 
 ###

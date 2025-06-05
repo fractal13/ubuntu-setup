@@ -95,3 +95,5 @@ sudo snap install gh
 https://ubuntuhandbook.org/index.php/2021/08/enable-hibernate-ubuntu-21-10/
 I don't know if it actually works the way I want.
 
+###
+tailscale - https://tailscale.com

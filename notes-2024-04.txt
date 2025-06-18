@@ -12,6 +12,7 @@ sudo apt install emacs
 # Settings -> Bluetooth -> OFF
 # Settings -> Ubuntu Desktop -> Auto-hide the Dock -> ON
 # Settings -> Sound -> System Sounds -> Sounds -> Volume Levels -> Mute by moving volume away from and back to 0.
+# Settings -> Ubuntu Desktop -> Enhanced Tiling -> OFF #### causes snapped windows to group together.
 
 sudo apt install stow
 sudo apt install make

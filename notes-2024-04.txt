@@ -16,6 +16,7 @@ sudo apt install emacs
 
 sudo apt install stow
 sudo apt install make
+sudo apt install ripgrep
 
 ssh-keygen
 cat .ssh/id_rsa.pub
@@ -75,7 +76,7 @@ http://cit.dixie.edu/faculty/larsen/google-test-installation.php
 sudo apt install libreoffice
 sudo apt install net-tools
 sudo apt install byobu
-sudo apt install texlive-latex-base texlive-metapost
+sudo apt install texlive-latex-base texlive-metapost texlive-pictures texlive-fonts-recommended texlive-latex-extra
 ## SHOULD USE venv now? sudo apt install python3-pygame
 
 ####
